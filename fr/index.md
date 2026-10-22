@@ -1,81 +1,61 @@
-# Conditions d’utilisation de Gestion Patients
+# Conditions d'Utilisation pour Mes Honoraires
 
-**Dernière mise à jour :** 16 octobre 2026
+**Dernière mise à jour :** 22 octobre 2026
 
-Veuillez lire attentivement les présentes conditions d’utilisation (les « Conditions ») avant d’utiliser l’application mobile **Gestion Patients** (l’« Application »), exploitée par **Inova Labs**.
-
----
+Veuillez lire attentivement les présentes Conditions d'Utilisation (« Conditions ») avant d'utiliser l'application mobile **Mes Honoraires** (ci-après l'« Application ») exploitée par **Inova Labs**.
 
 ### 1. Acceptation des Conditions
 
-En téléchargeant, en installant ou en accédant à l’Application, vous acceptez d’être lié par les présentes Conditions. Si vous n’acceptez pas l’intégralité de ces Conditions, vous n’êtes pas autorisé à utiliser l’Application.
+En téléchargeant, installant ou accédant à l'Application, vous acceptez d'être lié par les présentes Conditions. Si vous n'acceptez pas l'ensemble de ces Conditions, vous n'êtes pas autorisé à utiliser l'Application.
 
----
+### 2. Description du Service
 
-### 2. Description du service
+Mes Honoraires est un outil d'administration et de gestion des honoraires professionnels conçu pour fonctionner localement sur l'appareil. Il permet aux praticiens de suivre les soldes dus, les honoraires, les journaux d'interventions et d'effectuer des sauvegardes locales de leurs données.
 
-Gestion Patients est un outil d'aide à la gestion administrative et au suivi des paiements des patients, conçu selon une architecture **Local-First**, destiné aux médecins et aux praticiens de santé. 
-L'Application permet de suivre les honoraires, les soldes dus, les règlements, l'historique des paiements par patient/clinique, ainsi que d'effectuer des sauvegardes locales ou sur votre stockage cloud personnel.
+### 3. Architecture Hors Ligne & Connectivité Réseau
 
----
+* **Fonctionnement Hors Ligne :** L'Application fonctionne entièrement hors ligne pour la gestion quotidienne, l'enregistrement des interventions et le suivi des honoraires.
 
-### 3. Architecture « Offline-First » et connectivité réseau
+* **Utilisation du Réseau :** Une connexion Internet active est requise uniquement lorsque vous choisissez d'exécuter une sauvegarde de la base de données vers votre compte Google Drive personnel via Google Apps Script, ou lorsque les services Firebase transmettent des journaux de performance non identifiables, des diagnostics de plantage ou des configurations à distance.
 
-* **Fonctionnement hors ligne :** l’Application fonctionne entièrement hors ligne pour la gestion quotidienne et le suivi des paiements.
+### 4. Responsabilités de l'Utilisateur & Souveraineté des Données
 
-* **Utilisation du réseau :** une connexion Internet active est nécessaire uniquement lorsque vous choisissez d’effectuer une sauvegarde de la base de données vers votre compte Google Drive personnel via Google Apps Script, ou lorsque les services Firebase transmettent des journaux techniques non directement identifiants relatifs aux performances de l’Application, des diagnostics de plantage ou des paramètres de configuration à distance.
+* **Stockage Local & Contrôle :** Vous reconnaissez et acceptez que tous les dossiers de bénéficiaires, les données d'interventions et l'historique des paiements d'honoraires sont stockés strictement et exclusivement dans la mémoire locale de votre appareil ou sur votre compte Google Drive personnel. Nous ne stockons ni ne traitons vos données sur des serveurs indépendants.
 
----
+* **Conformité aux Lois Applicables :** Vous êtes seul responsable de vous assurer que la collecte, le stockage et la gestion des dossiers des bénéficiaires et des données d'honoraires sont conformes à toutes les lois locales applicables en matière commerciale, comptable, de confidentialité et de protection des données dans votre juridiction.
 
-### 4. Responsabilités de l’utilisateur et maîtrise des données
+* **Jetons d'Activation & de Licence :** L'accès à l'Application nécessite un jeton d'activation valide. Vous êtes responsable de la préservation de vos identifiants d'activation.
 
-* **Stockage local et contrôle des données :** vous reconnaissez et acceptez que tous les dossiers patients, les données de consultation et les historiques de paiement sont stockés exclusivement dans la mémoire locale de votre appareil ou dans votre compte Google Drive personnel. Nous ne stockons ni ne traitons vos données sur des serveurs indépendants.
+### 5. Désinstallation de l'Application, Suppression des Données et Invalidation du Jeton
 
-* **Respect de la législation médicale :** il vous incombe exclusivement de veiller à ce que la collecte, le stockage et le traitement des dossiers patients respectent l’ensemble des règles applicables dans votre juridiction en matière de secret médical, de confidentialité des patients et de protection des données.
+* **Réinitialisation et Désinstallation :**
 
-* **Activation et codes de licence :** l’accès à l’Application nécessite un code d’activation valide. Vous êtes responsable de la protection de vos identifiants d’activation.
+  * Vous pouvez supprimer des dossiers de bénéficiaires individuels ou réinitialiser votre base de données locale à tout moment depuis l'Application. La suppression d'un établissement entraînera la suppression automatique et définitive de tous les dossiers de bénéficiaires associés à cet établissement.
 
----
+  * La désinstallation de l'Application ou l'effacement des données via les paramètres de votre téléphone supprimera définitivement toutes les bases de données locales de votre appareil (sauf si elles ont été préalablement sauvegardées via votre routine Google Apps Script).
 
-### 5. Désinstallation de l’Application, suppression des données et invalidation du licence
+  * La désinstallation ou l'effacement des données invalide votre état d'activation actif, nécessitant un nouveau jeton d'activation pour réactiver l'Application.
 
-* **Réinitialisation et désinstallation :**
-  * Vous pouvez à tout moment supprimer des dossiers patients individuellement ou réinitialiser votre base de données locale depuis l’Application. La suppression d’une clinique entraîne automatiquement et définitivement la suppression de tous les dossiers patients qui lui sont associés.
+### 6. Exclusion de Responsabilité concernant les Conseils Professionnels & Comptables
 
-  * La désinstallation de l’Application ou l’effacement de ses données depuis les paramètres de votre appareil mobile supprime définitivement de celui-ci toutes les bases de données locales de l’Application, sauf si elles ont été préalablement sauvegardées au moyen de votre procédure Google Apps Script.
+* **Outil Administratif Uniquement :** L'Application est fournie strictement à titre d'assistant administratif et de tenue de registres pour le suivi des honoraires et des interventions.
 
-  * La désinstallation de l’Application ou l’effacement de ses données invalide l’état d’activation en cours. Un nouveau code d’activation est alors nécessaire pour réactiver l’Application.
+* **Exactitude des Données :** Vous êtes seul responsable de l'exactitude de toutes les données, des notes d'intervention et des dossiers de bénéficiaires saisis dans l'Application.
 
----
+### 7. Limitation de Responsabilité et Perte de Données
 
-### 6. Absence de conseil médical ou professionnel
+Étant donné que 100 % de vos données résident localement sur votre appareil ou sur votre Google Drive personnel, **Inova Labs** ne pourra être tenu responsable de toute perte de données, altération du stockage, panne d'appareil, absence de sauvegarde des enregistrements ou accès non autorisé à votre stockage local ou cloud personnel. Nous vous encourageons vivement à effectuer des sauvegardes manuelles régulières à l'aide de la fonctionnalité de sauvegarde Google Apps Script.
 
-* **Outil exclusivement administratif :** l’Application est fournie uniquement comme outil d’assistance administrative et de tenue des comptes. Elle ne fournit aucun diagnostic médical, aucune recommandation de traitement clinique ni aucune certification officielle en matière de comptabilité financière ou fiscale.
+### 8. Propriété Intellectuelle
 
-* **Exactitude des données :** vous êtes seul responsable de l’exactitude des montants financiers, des notes de consultation et des données patients que vous saisissez dans l’Application.
+L'Application, y compris son code source, sa conception visuelle, sa marque, ses logos et ses fonctionnalités, est la propriété exclusive de **Inova Labs**.
 
----
+### 9. Modifications des Présentes Conditions
 
-### 7. Limitation de responsabilité et perte de données
+Nous nous réservons le droit de modifier ou de remplacer les présentes Conditions à tout moment. L'utilisation continue de l'Application après toute modification constitue votre acceptation des Conditions révisées.
 
-Étant donné que l’intégralité de vos données est conservée localement sur votre appareil ou dans votre compte Google Drive personnel, **Inova Labs** ne saurait être tenue responsable de toute perte de données, corruption du stockage, défaillance de l’appareil, perte de dossiers non sauvegardés ou accès non autorisé à votre stockage local ou à votre espace de stockage cloud personnel. Nous vous recommandons vivement d’effectuer régulièrement des sauvegardes manuelles à l’aide de la fonctionnalité de sauvegarde Google Apps Script.
+### 10. Coordonnées de Contact
 
----
-
-### 8. Propriété intellectuelle
-
-L’Application, notamment son code source, sa conception visuelle, son identité de marque, ses logos et ses fonctionnalités, est la propriété exclusive de **Inova Labs**.
-
----
-
-### 9. Modifications des présentes Conditions
-
-Nous nous réservons le droit de modifier ou de remplacer les présentes Conditions à tout moment. La poursuite de l’utilisation de l’Application après l’entrée en vigueur de modifications vaut acceptation des Conditions révisées.
-
----
-
-### 10. Coordonnées
-
-Pour toute question concernant les présentes Conditions d’utilisation, veuillez nous contacter à l’adresse suivante :
+Si vous avez des questions concernant ces Conditions d'Utilisation, veuillez nous contacter à :
 
 * **E-mail :** patienttracker.support@gmail.com
