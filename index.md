@@ -1,8 +1,8 @@
-# Terms of Use for Gestion Patients
+# Terms of Use for Mes Honoraires
 
-**Last updated:** October 16, 2026
+**Last updated:** October 22, 2026
 
-Please read these Terms of Use ("Terms") carefully before using the **Gestion Patients** mobile application (the "App") operated by **Inova Labs**.
+Please read these Terms of Use ("Terms") carefully before using the **Mes Honoraires** mobile application (the "App") operated by **Inova Labs**.
 
 ---
 
@@ -12,40 +12,40 @@ By downloading, installing, or accessing the App, you agree to be bound by these
 ---
 
 ### 2. Description of Service
-Gestion Patients is a local-first administrative and practice management tool designed for doctors and healthcare providers to track owed balances, payment statuses, records, and local data backups.
+Mes Honoraires is a local-first administrative and professional fee management tool designed for practitioners to track owed balances, honoraires, intervention records, and local data backups.
 
 ---
 
 ### 3. Offline-First Architecture & Network Connectivity
-* **Offline Operation:** The App functions completely offline for day-to-day management and payment tracking. 
+* **Offline Operation:** The App functions completely offline for day-to-day management, intervention logging, and honoraires tracking. 
 
 * **Network Usage:** An active internet connection is required only when you choose to execute a database backup to your personal Google Drive via Google Apps Script, or when Firebase services transmit non-identifiable app performance logs, crash diagnostics, or remote configurations.
 
 ---
 
 ### 4. User Responsibilities & Data Sovereignty
-* **Local Storage & Control:** You acknowledge and agree that all patient records, consultation data, and payment histories are stored strictly and exclusively on your local device memory or within your personal Google Drive account. We do not store or process your data on independent servers.
+* **Local Storage & Control:** You acknowledge and agree that all bénéficiaire records, intervention data, and honoraires payment histories are stored strictly and exclusively on your local device memory or within your personal Google Drive account. We do not store or process your data on independent servers.
 
-* **Compliance with Medical Laws:** You are solely responsible for ensuring that your collection, storage, and handling of patient records comply with all applicable local medical confidentiality, patient privacy, and data protection laws in your jurisdiction.
+* **Compliance with Applicable Laws:** You are solely responsible for ensuring that your collection, storage, and handling of bénéficiaire records and honoraires data comply with all applicable local commercial, accounting, confidentiality, and data protection laws in your jurisdiction.
 
 * **Activation & License Tokens:** Access to the App requires a valid activation token. You are responsible for safeguarding your activation credentials.
 
 ---
 
 ### 5. App Uninstallation, Data Deletion, and Token Invalidation
-* **Resetting and uninstalling :**
-  * You can delete individual patient records or reset your local database at any time from within the App. Deleting a clinic will automatically and permanently remove all patient records associated with that clinic.
+* **Resetting and Uninstalling:**
+  * You can delete individual bénéficiaire records or reset your local database at any time from within the App. Deleting an établissement will automatically and permanently remove all bénéficiaire records associated with that établissement.
   
   * Uninstalling the App or clearing app data via your mobile settings will permanently delete all local app databases from your device (unless previously backed up via your Google Apps Script routine). 
   
-  * Uninstalling or Clearing data invalidates your active token state, requiring a new activation token to reactivate the App.
+  * Uninstalling or clearing data invalidates your active token state, requiring a new activation token to reactivate the App.
 
 ---
 
-### 6. Disclaimer of Medical & Professional Advice
-* **Administrative Tool Only:** The App is provided strictly as an administrative and bookkeeping assistant. It does not provide medical diagnoses, clinical treatment recommendations, or formal financial/tax accounting certification.
+### 6. Disclaimer of Professional & Accounting Advice
+* **Administrative Tool Only:** The App is provided strictly as an administrative and bookkeeping assistant for tracking honoraires and interventions.
 
-* **Data Accuracy:** You are solely responsible for the accuracy of all financial figures, consultation notes, and patient data entered into the App.
+* **Data Accuracy:** You are solely responsible for the accuracy of all financial figures, intervention notes, and bénéficiaire records entered into the App.
 
 ---
 
